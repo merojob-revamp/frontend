@@ -5,15 +5,16 @@
 
 .search{
     height: 4rem;
-    width:90rem;
+    width:90%;
     display: flex;
     flex-direction: row;
     align-items: center;
     border: #e0e0e0 1px solid;
+    /* padding: 64px 80px; */
     padding-inline-start: 10px;
-    border-radius: 10px;
     clip-rule: nonzero;
     color: var(--font-color);
+    margin: auto;
 }
 
 .position{
@@ -21,7 +22,8 @@
     flex-direction: row;
     align-items: center;
     color: var(--font-color);
-    gap:20px;
+    gap: 1 rem;
+    width: 70%;
 }
 
 .location{
@@ -29,7 +31,7 @@
     color:red;
     height: 4rem;
     align-items: center;
-    width: 25rem;
+    width: 20%;
     color: var(--font-color);
     gap:20px;
 }
@@ -38,11 +40,12 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    height: 4rem;
-    width: 15rem;
+    /* height: 4rem;
+    width: 15rem; */
+    padding: 1.5rem, 4rem;
     background-color: #3575E2;
     color: white;
-    border-radius: 0px 8px 8px 0px;
+    /* border-radius: 0px 8px 8px 0px; */
     user-select: none;
     transition: ease-in-out 0.2s;
 }
@@ -52,14 +55,20 @@
 }
 
 .text{
-    font-size: 20px;
+    height: 4rem;
+    font-size: 15px;
     font-weight: 500;
+    padding: 10px 40px;
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .search input {
     width: 50rem;
-    height:4rem;
+    /* height:4rem; */
+    padding: 18px;
     border: none;
     box-sizing: border-box;
     font-size: 16px;

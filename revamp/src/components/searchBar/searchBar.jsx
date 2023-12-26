@@ -1,6 +1,6 @@
 import Search_icon from './elements/search_icon.jsx';
 import Location_icon from './elements/location_icon.jsx';
-import './searchbar.css'
+import './searchBar.css'
 
 function SearchBar() {
     return (
@@ -24,4 +24,4 @@ function SearchBar() {
     );
 }
 
-export default SearchBar
+export default SearchBar;

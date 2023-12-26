@@ -1,0 +1,29 @@
+[
+      {
+        "id": 1,
+        "text": "Start a search",
+        "url": "/",
+        "style": null
+
+      },
+      {
+        "id": 2,
+        "text": "Blog",
+        "url": "/about",
+        "style": null
+
+      },
+      {
+        "id": 3,
+        "text": "Salary estimate",
+        "url": "/services",
+        "style": null
+
+      },
+      {
+        "id": 4,
+        "text": "For Freelancers",
+        "url": "/contact",
+        "style": "nav-btn"
+      }
+    ]
