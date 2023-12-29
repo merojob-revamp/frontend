@@ -52,7 +52,7 @@ const style = {
         wrapper:{
           width: '100%',
           backgroundColor: 'white',
-        padding: '16px',
+        padding: '1.5rem',
         boxShadow: '0px 4px 16px rgba(0, 0, 0, 0.1)',
         height: '100%',
           card : {

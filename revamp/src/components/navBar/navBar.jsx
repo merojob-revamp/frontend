@@ -113,7 +113,7 @@ const nav = {
             fontSize: '10px',
             fontWeight: 'bold',
             marginRight: '10px',
-            fontSize: '10px',
+            // fontSize: '10px',
         },
         button:{
             backgroundColor: '#3574e2',
