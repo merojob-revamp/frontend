@@ -1,5 +1,8 @@
 import React from 'react'
 import JobCard from './midbar_elements/jobCard.jsx'
+import { Link } from 'react-router-dom'
+
+
 const midbar = () => {
   return (
     <div style={style.body}>
@@ -27,7 +30,12 @@ const midbar = () => {
         </div>
       </div>
       <div className="card">
+        <Link to="job-details" className='mb-3'>
         <JobCard/>
+        <JobCard/>
+        <JobCard/>
+        </Link>
+        
       </div>
     </div>
   )

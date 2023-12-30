@@ -8,6 +8,8 @@ import { BrowserRouter,Route,Routes } from 'react-router-dom'
 import Landing from './components/landing/Landing.jsx'
 import LandBody from './components/landBody/landBody.jsx'
 import ChatPage from './components/chatBody/layout.jsx'
+import JobDetail from './components/jobBody/jobDetails.jsx'
+import LoginPage from './components/LoginBody/login.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +20,8 @@ function App() {
     <Routes>
       <Route path = '/' element = {<Landing/>}/>
       <Route path = '/chat' element = {<ChatPage/>}/>
+      <Route path = "/job-details" element = {<JobDetail/>} />
+      <Route path = "login" element={<LoginPage/>}/>
     </Routes>
     {/* <Landing/> */}
     {/* <SearchBar/> */}

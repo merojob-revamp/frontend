@@ -23,9 +23,11 @@ const navBar = () => {
     // <BrowserRouter>
     <nav style = {nav.main}>
     <div className='nav' style={nav.navStyle}>
+        <Link to="/" style={nav.logo}>
       <div className="logo">
         <img src={navLogo} style = {nav.logo} alt="logo" />
       </div>
+        </Link>
       <div className="nav-items" >
       <ul style={nav.ul}>
         <li style = {nav.ul.li}><Link to="/" style={nav.ul.li.linkto}>Start a search</Link></li>
@@ -37,8 +39,13 @@ const navBar = () => {
       <div className="thirdMan">
         <div style = {nav.thirdMan}className="thirdMan-items">
             <Link to="/chat" style={nav.thirdMan.btn}>Chat</Link>
-            <button style={nav.thirdMan.btn}>Login</button>
+            <Link to="/login" style={nav.thirdMan.btn}>
+            <button style = {nav.thirdMan.button}>Login</button>
+            </Link>
+            <Link to="/signup" style={nav.thirdMan.btn}>
             <button style = {nav.thirdMan.button}>Sign Up</button>
+            </Link>
+            {/* <button style={nav.thirdMan.btn}>Login</button> */}
         </div>
     </div>
     </div>
