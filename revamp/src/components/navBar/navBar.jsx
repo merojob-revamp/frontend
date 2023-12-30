@@ -36,6 +36,7 @@ const navBar = () => {
       </div>
       <div className="thirdMan">
         <div style = {nav.thirdMan}className="thirdMan-items">
+            <Link to="/chat" style={nav.thirdMan.btn}>Chat</Link>
             <button style={nav.thirdMan.btn}>Login</button>
             <button style = {nav.thirdMan.button}>Sign Up</button>
         </div>

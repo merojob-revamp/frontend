@@ -1,5 +1,6 @@
 import React from 'react'
 import SearchBar from '../searchBar/searchBar';
+import LandBody from '../landBody/landBody';
 
 const Landing = () => {
   return (
@@ -13,6 +14,7 @@ const Landing = () => {
     <div className="search_bar">
         <SearchBar/>
     </div>
+    <LandBody/>
     </div >
   )
 }
